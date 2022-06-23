@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Big Shoulders Display', cursive;
+    font-family: 'Lexend Deca', sans-serif;
+    margin: 0px;
+}
+.container {
+    padding: 170px;
+}
+.catalog {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+.item {
+    padding: 48px;
+    width: 310px;
+    border-radius: 8px;
+}
+.item-sedan {
+    background: #E28625;
+}
+.sedan-img {
+}
+.sedan-heading {
+    font-family: 'Big Shoulders Display';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    text-transform: uppercase;
+    color: #F2F2F2;
+    margin-bottom: 25px;
+    margin-top: 35px;
+}
+.sedan-text {
+    width: 212px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.75;
+    margin-bottom: 94px;
+    flex-wrap: wrap;
+}
+.link {
+    padding: 12px 32px;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    background-color: #fff;
+    border-radius: 25px;
+    border-color: #fff;
+    outline: none;
+    transition: 1s;
+}
+.link:hover{
+    color: #fff;
+    border: 2px solid white;
+}
+.link:focus{
+    box-shadow: 0 0 2px 2px #fff;
+}
+.sedan-link{
+    color: #E28625;
+}
+.sedan-link:hover{
+    border: 2px solid white;
+    background: #E28625;
+}
+.suv-link{
+    color: #006971;
+}
+.suv-link:hover{
+    background: #006971;
+}
+.luxury-link{
+    color: #004140;
+}
+.luxury-link:hover{
+  background: #004140;
+}
+.item-suv {
+    background: #006971;
+}
+.item-luxury {
+    background: #004140;
+}
